@@ -13,7 +13,7 @@
 <body>
     <header>
         <!-- Navbar wrapper -->
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <nav class="navbar navbar-toggleable-lg navbar-light bg-faded">
 
             <!-- Collapse button voor mobile doeleinden -->
             <!-- Let op dat je data-target overeen komt met het id van de overkoepelende div hieronder -->
@@ -23,42 +23,44 @@
             </button>
             <!-- Einde collapse button voor mobile doeleinden -->
 
-            <!-- Navbar logo of brandnaam -->
-            <a class="navbar-brand" href="#">LOGO</a>
-            <!-- Einde navbar logo of brandnaam -->
 
             <!-- Overkoepelende div waarmee we zeggen welk deel moet inklappen bij mobile -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                 <!-- Navbar knoppen en links -->
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active text-center">
                         <a class="nav-link" href="#">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active text-center">
                         <a class="nav-link" href="#">Ons Verhaal
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active text-center">
                         <a class="nav-link" href="#">Assortiment
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li>
+                         <!-- Navbar logo of brandnaam -->
+                        <a class="navbar-brand text-center" href="#">LOGO</a>
+                        <!-- Einde navbar logo of brandnaam -->
+                    </li>
+                    <li class="nav-item active text-center">
                         <a class="nav-link" href="#">Foodtruck
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active text-center">
                         <a class="nav-link" href="#">On Tour
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
 
-                    <li class="nav-item active">
+                    <li class="nav-item active text-center">
                         <a class="nav-link" href="#">Contact
                             <span class="sr-only">(current)</span>
                         </a>
@@ -73,17 +75,18 @@
         <!-- Einde navbar wrapper -->
     </header>
 
-    <div class="container-fluid"></div>
-    <div class="row">
-        <div class="col-sm-6">
-            <h1>Titel </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas luctus nunc. Suspendisse dictum lacus
-                quis urna ornare, vitae maximus dolor tristique. Duis eget augue id lectus porttitor tempus ut vitae urna.
-                Integer vel porta dui. Fusce quis eleifend sem, at tempor erat. </p>
-            <button type="button" class="btn btn-primary" style=background-color:grey>Ons Verhaal</button>
-        </div>
-        <div class="col-sm-6">
-            <img class="img-fluid" src="./images/grijs.png" alt="" />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Titel </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas luctus nunc. Suspendisse dictum lacus
+                    quis urna ornare, vitae maximus dolor tristique. Duis eget augue id lectus porttitor tempus ut vitae urna.
+                    Integer vel porta dui. Fusce quis eleifend sem, at tempor erat. </p>
+                <button type="button" class="btn btn-primary" style=background-color:grey>Ons Verhaal</button>
+            </div>
+            <div class="col-sm-6">
+                <img class="img-fluid" src="./images/grijs.png" alt="" />
+            </div>
         </div>
 
         <div class="row">
@@ -93,21 +96,23 @@
             <div class="col-sm-6">
                 <H2 class="text-center"> "Hier komt een quote" </H2>
             </div>
+        </div>
 
 
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1>Titel </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas luctus nunc. Suspendisse dictum
-                        lacus quis urna ornare, vitae maximus dolor tristique. Duis eget augue id lectus porttitor tempus
-                        ut vitae urna. Integer vel porta dui. Fusce quis eleifend sem, at tempor erat. </p>
-                    <button type="button" class="btn btn-primary" style=background-color:grey>bekijk hier</button>
-                </div>
-                <div class="col-sm-6">
-                     <img class="img-fluid" src="./images/grijs.png" alt="" />
-                    
-                </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Titel </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas luctus nunc. Suspendisse dictum
+                    lacus quis urna ornare, vitae maximus dolor tristique. Duis eget augue id lectus porttitor tempus
+                    ut vitae urna. Integer vel porta dui. Fusce quis eleifend sem, at tempor erat. </p>
+                <button type="button" class="btn btn-primary" style=background-color:grey>bekijk hier</button>
             </div>
+            <div class="col-sm-6">
+                    <img class="img-fluid" src="./images/grijs.png" alt="" />
+                
+            </div>
+        </div>
+    </div>
             
 
 
@@ -122,6 +127,8 @@
                     crossorigin="anonymous"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
                     crossorigin="anonymous"></script>
-</body>
 
-</html>
+                </body>
+
+
+                </html>
