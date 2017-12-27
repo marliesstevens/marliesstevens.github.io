@@ -7,7 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+<<<<<<< HEAD
     <title>Home</title>
+=======
+    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand" rel="stylesheet">
+    <title>On Tour</title>
+>>>>>>> 27c2008cf2ba61da0f203f48b37b40d08a3f5096
 </head>
 
 <body>
@@ -30,38 +35,66 @@
                 <!-- Navbar knoppen en links -->
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active text-center">
+<<<<<<< HEAD
                         <a class="nav-link" href="index.html">Home
+=======
+                        <a class="nav-link text-white" href="index.html">Home
+>>>>>>> 27c2008cf2ba61da0f203f48b37b40d08a3f5096
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item active text-center">
+<<<<<<< HEAD
                         <a class="nav-link" href="onsverhaal.html">Ons Verhaal
+=======
+                        <a class="nav-link text-white" href="onsverhaal.html">Ons Verhaal
+>>>>>>> 27c2008cf2ba61da0f203f48b37b40d08a3f5096
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item active text-center">
+<<<<<<< HEAD
                         <a class="nav-link" href="assortiment.html">Assortiment
+=======
+                        <a class="nav-link text-white" href="assortiment.html">Assortiment
+>>>>>>> 27c2008cf2ba61da0f203f48b37b40d08a3f5096
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li>
                         <!-- Navbar logo of brandnaam -->
+<<<<<<< HEAD
                         <a class="navbar-brand text-center" href="index.html">LOGO</a>
                         <!-- Einde navbar logo of brandnaam -->
                     </li>
                     <li class="nav-item active text-center">
                         <a class="nav-link" href="foodtruck.html">Foodtruck
+=======
+                        <a class="navbar-brand text-center" href="index.html"><img class="img-fluid" src="./images/logo.png" alt="La Croquetterie" /></a>
+                        <!-- Einde navbar logo of brandnaam -->
+                    </li>
+                    <li class="nav-item active text-center">
+                        <a class="nav-link text-white" href="foodtruck.html">Foodtruck
+>>>>>>> 27c2008cf2ba61da0f203f48b37b40d08a3f5096
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item active text-center">
+<<<<<<< HEAD
                         <a class="nav-link" href="ontour.html">On Tour
+=======
+                        <a class="nav-link text-white" href="ontour.html">On Tour
+>>>>>>> 27c2008cf2ba61da0f203f48b37b40d08a3f5096
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
 
                     <li class="nav-item active text-center">
+<<<<<<< HEAD
                         <a class="nav-link" href="contact.html">Contact
+=======
+                        <a class="nav-link text-white" href="contact.html">Contact
+>>>>>>> 27c2008cf2ba61da0f203f48b37b40d08a3f5096
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -78,6 +111,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
+<<<<<<< HEAD
                 <h1>Waar kan je onze foodtruck vinden?</h1>
                 <br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas luctus nunc. Suspendisse dictum
@@ -93,6 +127,49 @@
 
         <div class="footer">
                 <p>Footer</p>
+=======
+                    <div class="extra-padding">
+                <h1>Waar kan je onze foodtruck vinden?</h1>
+                <br>
+                <p>Wil je weten waar we binnenkort met onze foodtruck staan om onze artisanele kroketjes te verkopen? Dat zie je op deze kaart.
+                Wij vullen onze agenda regelmatig aan met nieuwe staanplaatsen, die worden steeds toegevoegd aan de kaart.</p>
+                <h4>"Blond of brunette? Wij hebben voor iedereen een kroket!"</h4>
+                <p>Wil je liever zelf onze foodtruck boeken voor uw privé-evenement? Ook dat kan! Vul een formulier in en wij bekijken samen de beste formule voor uw evenement. </p>
+                <br>
+                <button type="button" onclick="window.location.href='boek.html'" class="btn btn-primary btn-lg" style=background-color:#f5d422>Boek Nu</button>
+            </div>
+            </div>
+            <div class="col-sm-6">
+                    <div id="map" style="width:100%;height:730px"></div>
+                    
+                    <script>
+                        
+                    function myMap() {
+                      var myCenter = new google.maps.LatLng(50.8503396,4.3517103);
+                      var mapCanvas = document.getElementById("map");
+                      var mapOptions = {center: myCenter, zoom: 8};
+                      var map = new google.maps.Map(mapCanvas, mapOptions);
+                      var marker = new google.maps.Marker({position:myCenter});
+                      marker.setMap(map);
+                      google.maps.event.addListener(marker,'click',function() {
+                        var infowindow = new google.maps.InfoWindow({
+                          content:"Foodtruck Festival - 10 april 2018"
+                        });
+                      infowindow.open(map,marker);
+                      });
+
+                      
+                      
+                    }
+                    </script>
+                     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDicWjAHfByAm0KJ07uYrvT5c0I4eSUEKA&callback=myMap"></script>
+            </div>
+        </div>
+        
+
+        <div class="footer">
+                <p>2017 - La Croquetterie - Marlies Stevens - Download hier het dossier</p>
+>>>>>>> 27c2008cf2ba61da0f203f48b37b40d08a3f5096
             </div>
         </div>
 
