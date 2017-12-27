@@ -17,18 +17,12 @@
   background-color: #936d5f;
   color: white;
   text-align: center;
-<<<<<<< HEAD
   font-size: 10pt;
 }
-=======
-}
-
->>>>>>> bc4bcb5b7258c41cc59c15051b0c45d9ab76df31
 .navbar-nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: stretch;
-<<<<<<< HEAD
   width: 100%;
   background-color: #d26e56;
   font-family: 'Grand Hotel';
@@ -95,14 +89,6 @@ text-decoration: none;
 font-size: 1.5em;
 }
 
-=======
-	width: 100%;
-}
-
-.btn{
-    border: none;
-}
->>>>>>> bc4bcb5b7258c41cc59c15051b0c45d9ab76df31
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -184,7 +170,6 @@ font-size: 1.5em;
   transform: translate3d(0,0,0);
 }
 
-<<<<<<< HEAD
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 a.btn-social,
@@ -296,76 +281,3 @@ a.btn-social,
     padding: 10px 60px;
 }
 
-=======
-
-
-@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
-
-.social {
-    margin: 0;
-    padding: 0;
-}
-
-.social ul {
-    margin: 0;
-    padding: 5px;
-}
-
-.social ul li {
-    margin: 5px;
-    list-style: none outside none;
-    display: inline-block;
-}
-
-.social i {
-    width: 40px;
-    height: 40px;
-    color: #FFF;
-    background-color: #909AA0;
-    font-size: 22px;
-    text-align:center;
-    padding-top: 12px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
-}
-
-.social i:hover {
-    color: #FFF;
-    text-decoration: none;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
-}
-
-.social .fa-facebook:hover {
-    background: #4060A5;
-}
-
-.social .fa-twitter:hover {
-    background: #00ABE3;
-}
-
-
-.social .fa-linkedin:hover {
-    background: #0094BC;
-}
-
-
-.social .fa-instagram:hover {
-    background: #375989;
-}
-
-
-.social .fa-foursquare:hover {
-    background: #09B9E0;
-}
->>>>>>> bc4bcb5b7258c41cc59c15051b0c45d9ab76df31
